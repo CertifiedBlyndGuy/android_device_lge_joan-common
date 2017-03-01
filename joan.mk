@@ -21,6 +21,10 @@ $(call inherit-product-if-exists, vendor/lge/joan-common/joan-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-carbon
 
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+    device/lge/joan-common/nexus.xml:system/etc/sysconfig/nexus.xml
+
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
