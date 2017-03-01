@@ -26,6 +26,10 @@ PRODUCT_SOONG_NAMESPACES += \
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay \
     $(COMMON_PATH)/overlay-carbon
 
+# Pixel Experience
+PRODUCT_COPY_FILES += \
+    device/google/taimen/nexus.xml:system/etc/sysconfig/nexus.xml
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Properties
