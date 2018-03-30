@@ -417,3 +417,6 @@ PRODUCT_PACKAGES += \
     wificond \
     wpa_supplicant \
     wpa_supplicant.conf
+
+# Include AmbientSense vendor if it's available
+-include vendor/ambientmusic/ambient/ambient-vendor.mk
