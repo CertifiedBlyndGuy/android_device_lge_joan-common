@@ -1,10 +1,10 @@
-package org.lineageos.settings.device.dac.utils;
+package com.joan.settings.device.dac.utils;
 
 import android.media.AudioSystem;
 import android.os.SystemProperties;
 import android.util.Log;
 
-import org.lineageos.hardware.util.FileUtils;
+import com.joan.hardware.util.FileUtils;
 
 public class QuadDAC {
 

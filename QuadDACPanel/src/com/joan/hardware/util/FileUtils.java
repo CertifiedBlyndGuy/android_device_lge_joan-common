@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware.util;
+package com.joan.hardware.util;
 
 import android.util.Log;
 
