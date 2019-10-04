@@ -28,7 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay \
 
 # Pixel Experience
 PRODUCT_COPY_FILES += \
-    device/google/taimen/nexus.xml:system/etc/sysconfig/nexus.xml
+    device/google/taimen/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
